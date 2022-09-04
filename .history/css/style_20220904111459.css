@@ -811,10 +811,6 @@ h2.simu-sec-title:after {
     margin: 5px 0.5%;
     /* height: fit-content; */
 }
-.simulation-inner img {
-    height: 225px;
-    object-fit: cover;
-}
 .simulation-inner .sclmn-three:hover {
     border: 1px solid #1181B9;
 }
@@ -891,9 +887,6 @@ h3.simu-title:hover {
 @media (max-width: 767px){
     .simpact-part-2{
         padding: 20px 0px 0px 0px;
-    }
-    .simulation-inner img {
-        height: 150px;
     }
 }
 @media only screen and (max-width: 600px){
