@@ -66,13 +66,7 @@ elementorTabTitles.forEach(elementorTabTitle => {
 
 // .elementor-widget-container.show-elementor
 let purchasesCar = document.querySelector(".purchases-car");
-let elementorWidget = document.querySelector(".elementor-widget-container")
-let CloseElementorWidget = document.querySelector(".close-elementor-widget")
+let purchasesCar = document.querySelector(".elementor-widget-container")
 purchasesCar.onclick = (e) => {
-    elementorWidget.classList.add("show-elementor")
-}
-if (elementorWidget ){
-    CloseElementorWidget.onclick = (e) => {
-        elementorWidget.classList.remove("show-elementor")
-    }  
+
 }

@@ -73,6 +73,8 @@ purchasesCar.onclick = (e) => {
 }
 if (elementorWidget ){
     CloseElementorWidget.onclick = (e) => {
-        elementorWidget.classList.remove("show-elementor")
-    }  
+        elementorWidget.classList.add("show-elementor")
+    }
+
+    
 }

@@ -390,7 +390,7 @@ ul.dropdown-menu.show li:hover > a {
     display: none;
 }
  .elementor-widget-container.show-elementor {
-    display: block;
+    display: none;
 }
 .elementor-widget-container img {
     height: auto;

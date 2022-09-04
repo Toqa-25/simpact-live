@@ -387,10 +387,6 @@ ul.dropdown-menu.show li:hover > a {
     padding: 25px;
     z-index: 99999;
     box-shadow: 0 0 15px 0px #334c6fa6;
-    display: none;
-}
- .elementor-widget-container.show-elementor {
-    display: block;
 }
 .elementor-widget-container img {
     height: auto;
@@ -474,10 +470,6 @@ ul.dropdown-menu.show li:hover > a {
 .order-section .column-center h2 {
     margin: 5px 0;
     font-size: 18px;
-    font-variant-numeric: lining-nums;
-    font-weight: 700;
-    letter-spacing: -0.0415625em;
-    line-height: 1.25
 }
 .order-section .column-right {
     /* flex: 0.4; */

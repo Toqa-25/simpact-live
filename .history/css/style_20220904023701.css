@@ -63,28 +63,6 @@ li {
     line-height: 1.5;
     margin: 0.5rem 0 0 2rem;
 }
-button{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: #cd2653;
-    border: none;
-    border-radius: 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0.0333em;
-    line-height: 1.25;
-    margin: 0;
-    opacity: 1;
-    padding: 1.1em 1.44em;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: opacity 0.15s linear;
-
-}
 /* header style */
 header{
     padding: 12px 0 0;
@@ -377,7 +355,7 @@ ul.dropdown-menu.show li:hover > a {
 }
 
 /* strt purchases-car-manue style */
- .elementor-widget-container {
+.cart-drawer .elementor-widget-container {
     position: fixed;
     top: 0;
     right: 0;
@@ -387,18 +365,6 @@ ul.dropdown-menu.show li:hover > a {
     padding: 25px;
     z-index: 99999;
     box-shadow: 0 0 15px 0px #334c6fa6;
-    display: none;
-}
- .elementor-widget-container.show-elementor {
-    display: block;
-}
-.elementor-widget-container img {
-    height: auto;
-    max-width: 100%;
-    border: none;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 .top-cart-heading {
     padding: 20px 0px;
@@ -416,9 +382,6 @@ ul.dropdown-menu.show li:hover > a {
 }
 .left-column .top-heading {
     flex: 6;
-    font-weight: 700;
-    letter-spacing: -0.0415625em;
-    line-height: 1.25;
 }
 .left-column .order-number {
     flex: 1.1;
@@ -447,97 +410,7 @@ ul.dropdown-menu.show li:hover > a {
 .order-section .column-center {
     flex: 3;
 }
-.order-section .column-center h2 {
-    margin: 5px 0;
-    font-size: 18px;
-}
-.order-section span {
-    font-size: 18px;
-    font-family: 'Hind Siliguri';
-}
-.order-section .column-right {
-    /* flex: 0.4; */
-    margin: auto;
-}
-.order-section {
-    display: flex;
-    border-top: 1px solid #eae8e4;
-    border-bottom: 1px solid #eae8e4;
-}
-.order-section .column-left {
-    flex: 1;
-    margin: auto;
-}
-.order-section .column-center {
-    flex: 3;
-}
-.order-section .column-center h2 {
-    margin: 5px 0;
-    font-size: 18px;
-    font-variant-numeric: lining-nums;
-    font-weight: 700;
-    letter-spacing: -0.0415625em;
-    line-height: 1.25
-}
-.order-section .column-right {
-    /* flex: 0.4; */
-    margin: auto;
-}
-.total-section-container {
-    display: flex;
-    padding: 15px 0;
-}
-.total-section-container .left-column {
-    flex: 1;
-}
-.total-section-container p {
-    font-size: 18px;
-    font-family: 'Hind Siliguri';
-}
-.total-section-container .right-column {
-    flex: 1;
-}
-.total-section-container .right-column p {
-    float: right;
-}
-.Checkout-btn {
-    margin-top: 15px;
-}
-.right-column button {
-    float: right;
-    opacity: .5;
-    font-size: 16px;
-}
- button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 0.07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-.Checkout-btn button {
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    padding: 25px 0;
-    border: 1px solid black;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: 'Hind Siliguri';
-}
-.Checkout-btn button {
-    color: white;
-    background: black;
-}
+
 /* strt simpact-part-1 style */
 .simpact-part-1{
     

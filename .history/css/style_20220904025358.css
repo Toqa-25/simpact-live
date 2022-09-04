@@ -387,10 +387,6 @@ ul.dropdown-menu.show li:hover > a {
     padding: 25px;
     z-index: 99999;
     box-shadow: 0 0 15px 0px #334c6fa6;
-    display: none;
-}
- .elementor-widget-container.show-elementor {
-    display: block;
 }
 .elementor-widget-container img {
     height: auto;
@@ -416,9 +412,6 @@ ul.dropdown-menu.show li:hover > a {
 }
 .left-column .top-heading {
     flex: 6;
-    font-weight: 700;
-    letter-spacing: -0.0415625em;
-    line-height: 1.25;
 }
 .left-column .order-number {
     flex: 1.1;
@@ -474,10 +467,6 @@ ul.dropdown-menu.show li:hover > a {
 .order-section .column-center h2 {
     margin: 5px 0;
     font-size: 18px;
-    font-variant-numeric: lining-nums;
-    font-weight: 700;
-    letter-spacing: -0.0415625em;
-    line-height: 1.25
 }
 .order-section .column-right {
     /* flex: 0.4; */
@@ -523,20 +512,6 @@ img.emoji {
     vertical-align: -0.1em !important;
     background: none !important;
     padding: 0 !important;
-}
-.Checkout-btn button {
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    padding: 25px 0;
-    border: 1px solid black;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: 'Hind Siliguri';
-}
-.Checkout-btn button {
-    color: white;
-    background: black;
 }
 /* strt simpact-part-1 style */
 .simpact-part-1{

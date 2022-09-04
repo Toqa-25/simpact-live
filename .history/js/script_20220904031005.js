@@ -72,7 +72,9 @@ purchasesCar.onclick = (e) => {
     elementorWidget.classList.add("show-elementor")
 }
 if (elementorWidget ){
-    CloseElementorWidget.onclick = (e) => {
-        elementorWidget.classList.remove("show-elementor")
-    }  
+    purchasesCar.onclick = (e) => {
+        elementorWidget.classList.add("show-elementor")
+    }
+
+    
 }

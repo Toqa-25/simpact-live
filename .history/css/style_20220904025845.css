@@ -387,10 +387,6 @@ ul.dropdown-menu.show li:hover > a {
     padding: 25px;
     z-index: 99999;
     box-shadow: 0 0 15px 0px #334c6fa6;
-    display: none;
-}
- .elementor-widget-container.show-elementor {
-    display: block;
 }
 .elementor-widget-container img {
     height: auto;
